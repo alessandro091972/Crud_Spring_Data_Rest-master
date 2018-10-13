@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--base href="/"/-->
+    <title>The User App</title>
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+ 
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    
+     <script src="lib/jquery/jquery.js"></script>
+      <script src="lib/angular/angular.js"></script>
+      <script type="text/javascript" src="lib/angular/angular-ui-router.min.js"></script>
+      <script type="text/javascript" src="lib/angular/angular-resource.min.js"></script>
+     <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+      <script type="text/javascript" src="lib/angular/angular-route.min.js"></script>
+     
+   
+</head>
+
+<body ng-app="ngdemoApp">
+  
+
+      <ul class="menu">
+        <li><a href="#/user-list">user-list</a></li>
+        <li><a href="#/user-creation">user-creation</a></li>
+      </ul>
+
+      
+      <div class="container" ng-view=""></div>
+
+      <script src="scripts/app.js"></script>
+      <script src="scripts/services/services.js"></script>
+      <script src="scripts/controllers/controllers.js"></script>
+     
+    </body>
+    </html>
